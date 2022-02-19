@@ -17,7 +17,7 @@
 int envmap_width, envmap_height;
 std::vector<Vec3f> envmap;
 Model duck("../duck.obj");
-bool doDuck = false;
+bool doDuck = true;
 
 struct Light
 {
